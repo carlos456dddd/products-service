@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/server.js",
+    "dev": "nodemon src/app.js",
     "test": "jest",
     "postinstall": "prisma generate"
   },
@@ -13,18 +13,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@prisma/client": "^6.14.0",
+    "@prisma/client": "^6.15.0",
     "bcrypt": "^6.0.0",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
-    "prisma": "^6.14.0",
     "zod": "^4.1.1"
   },
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "jest": "^30.0.5",
     "nodemon": "^3.1.10",
+    "prisma": "^6.15.0",
     "supertest": "^7.1.4"
   }
 }
